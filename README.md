@@ -6,11 +6,7 @@
   
 # This repository is forked from topepo/caret, currently it is a modified version for adapting to DeepVariantScan which added CNN and it's importance estimation
 
-# Classification and Regression Training
-
+# Users should refer to the original package caret from CRAN or topepc/caret. Below is the link to the introduction of this package.
 Miscellaneous functions for training and plotting classification and regression models.  Detailed documentation is at http://topepo.github.io/caret/index.html
 
-## Install the current repository from GitHub:
-```r
-devtools::install_github('xinghuq/caret/pkg/caret')
-```
+
