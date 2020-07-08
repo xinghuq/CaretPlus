@@ -4,17 +4,13 @@
 [![Downloads](http://cranlogs.r-pkg.org/badges/caret)](http://cran.rstudio.com/package=caret)
 [![R build status](https://github.com/topepo/caret/workflows/R-CMD-check/badge.svg)](https://github.com/topepo/caret/actions)
   
-  
+# This repository is forked from topepo/caret, currently it is a modified version for adapting to DeepVariantScan which added CNN and it's importance estimation
+
 # Classification and Regression Training
 
 Miscellaneous functions for training and plotting classification and regression models.  Detailed documentation is at http://topepo.github.io/caret/index.html
 
-## Install the current release from CRAN:
+## Install the current repository from GitHub:
 ```r
-install.packages('caret')
-```
-
-## Install the development version from GitHub:
-```r
-devtools::install_github('topepo/caret/pkg/caret')
+devtools::install_github('xinghuq/caret/pkg/caret')
 ```
