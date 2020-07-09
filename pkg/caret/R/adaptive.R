@@ -990,7 +990,7 @@ diffmat <- function(dat) {
         x <- dat[,i]  - dat[,j]
         tmpm <- abs(mean(x, na.rm = TRUE))
         tmps <- sd(x, na.rm = TRUE)
-        out[i, j] <- out[j, i] <- if(tmps < .Machine$double.eps^1e-20) 0 else tmpm/tmps
+        out[i, j] <- out[j, i] <- if(tmps < .Machine$double.eps | is.na(tmps)) 0 else tmpm/tmps
       }
     }
   }
