@@ -14,3 +14,6 @@ Miscellaneous functions for training and plotting classification and regression 
 # install this version from github
 remotes::install_github("xinghuq/CaretPlus/pkg/caret")
 ``````
+#Citation
+
+Kuhn, M. (2015). Caret: classification and regression training. ascl, ascl-1505.
