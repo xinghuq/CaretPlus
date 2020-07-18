@@ -10,10 +10,13 @@ The original caret package can't accommodate some functions for DeepVariantScan 
 Users should refer to the original package caret from CRAN or topepc/caret. Below is the link to the introduction of caret package.
 Miscellaneous functions for training and plotting classification and regression models.  Detailed documentation is at http://topepo.github.io/caret/index.html
 ## Installation 
+
 ``````{r}
 # install this version from github
 remotes::install_github("xinghuq/CaretPlus/pkg/caret")
+
 ``````
-#Citation
+
+## Citation of caret
 
 Kuhn, M. (2015). Caret: classification and regression training. ascl, ascl-1505.
