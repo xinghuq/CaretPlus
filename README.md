@@ -4,12 +4,13 @@
 [![Downloads](http://cranlogs.r-pkg.org/badges/caret)](http://cran.rstudio.com/package=caret)
 [![R build status](https://github.com/topepo/caret/workflows/R-CMD-check/badge.svg)](https://github.com/topepo/caret/actions)
   
-This repository is a modified version of "caret" for adapting DeepVariantScan, which added CNN and it's importance estimation, as well as some updates on adaptive resamplings. 
-The original caret package can't accommodate some functions for DeepVariantScan becasue of some bugs. 
+This repository is a modified version of "caret" for adapting DeepGenomeScan, which includes CNN and it's importance estimation, as well as some updates on adaptive resampling. 
+The original caret package can't accommodate some functions for DeepGenomeScan, please install this version if you use DeepGenomeScan. 
 
-Users should refer to the original package caret from CRAN or topepc/caret. Below is the link to the introduction of caret package.
+Users should refer to the original package caret from CRAN or topepc/caret. For more informatio about the caret pcakge, below is the link to the introduction of caret package.
 Miscellaneous functions for training and plotting classification and regression models.  Detailed documentation is at http://topepo.github.io/caret/index.html
-## Installation 
+
+## Installation of current version
 
 ``````{r}
 # install this version from github
