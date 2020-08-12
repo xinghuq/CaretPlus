@@ -1,6 +1,7 @@
 --- 
-title: "The `caret` Package"
-author: "Max Kuhn"
+title: "Introduction of the `caret` Package and "CaretPlus" "
+subtitle: ""CaretPlus" used for "DeepGenomeScan""
+author: ""This documentation updates the intruduction of the "caret" package authored by Max Kuhn, additionally, the updates syn in "CaretPlus"" compatible with "DeepGenomeScan" "
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: 
@@ -12,7 +13,7 @@ split_by: chapter
 ---
 
 # Introduction
-
+This documentation updates the intruduction of the "caret" package authored by Max Kuhn, additionally, the updates syn in "CaretPlus".
 The [`caret`](http://cran.r-project.org/web/packages/caret/index.html) package (short for <b>C</b>lassification  <b>A</b>nd  <b>RE</b>gression  <b>T</b>raining) is a set of functions that attempt to streamline the process for creating predictive models. The package contains tools for:
 
 -   data splitting
@@ -25,7 +26,7 @@ as well as other functionality.
 
 There are many different modeling functions in R. Some have different syntax for model training and/or prediction. The package started off as a way to provide a uniform interface the functions themselves, as well as a way to standardize common tasks (such parameter tuning and variable importance).
 
-The current release version can be found on [CRAN](http://cran.r-project.org/web/packages/caret/) and the project is hosted [on github](https://github.com/topepo/caret).
+The current release version can be found on [CRAN](http://cran.r-project.org/web/packages/caret/) and the project is hosted [on github](https://github.com/topepo/caret), and the "CaretPlus" including CNN and its importance metrics is hosted on[github](https://github.com/xinghuq/CaretPlus).
 
 Some resources:
 
@@ -37,6 +38,6 @@ Some resources:
 - [DataCamp](https://www.datacamp.com) has a [beginner's tutorial on machine learning in R](https://www.datacamp.com/courses/machine-learning-toolbox) using `caret`.  
 
 
-You can always email [me](mailto:mxkuhn@gmail.com) with questions,comments or suggestions.
+You can always email [me](mailto:qinxinghu@gmail.com) with questions,comments or suggestions.
 
 These HTML pages were created using [bookdown](https://bookdown.org). 
