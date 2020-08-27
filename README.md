@@ -8,7 +8,7 @@ This repository is a modified version of "caret" for adapting DeepGenomeScan, wh
 The original caret package can't accommodate some functions for DeepGenomeScan, please install this version if you use DeepGenomeScan. 
 
 Users should refer to the original package caret from CRAN or topepc/caret. For more informatio about the caret pcakge, below is the link to the introduction of caret package.
-Miscellaneous functions for training and plotting classification and regression models.  Detailed documentation is at https://xinghuq.github.io/CaretPlus/.
+Miscellaneous functions for training and plotting classification and regression models.  Detailed documentation is at https://topepo.github.io/caret/index.html.
 
 ## Installation of current version
 
