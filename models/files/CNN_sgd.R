@@ -1,6 +1,6 @@
 
 
-CNN_sgd <- list(label = "Convolutional Neural Network",
+modelInfo <- list(label = "Convolutional Neural Network",
                 library = "keras",
                 loop = NULL,
                 type = c('Regression', "Classification"),
