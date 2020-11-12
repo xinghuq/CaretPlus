@@ -1,4 +1,4 @@
-setwd("~/github/caret/models/files")
+setwd("~/r-library/caret/models/files")
 
 modelFiles <- list.files(pattern = "\\.R$")
 
