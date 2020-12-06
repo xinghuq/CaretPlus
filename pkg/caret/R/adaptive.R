@@ -1023,7 +1023,7 @@ filter_on_diff <- function(dat, metric, cutoff = 0.01, maximize = TRUE, verbose 
     for (j in (i + 1):varnum) {
       if (!any(i == deletecol) & !any(j == deletecol)) {
         if (abs(x[i, j]) < cutoff) {
-          if (mns[i] < mns[j]) {
+          if (mns[i] < mns[j] | is.na(tmps) {
             deletecol <- unique(c(deletecol, i))
           } else {
             deletecol <- unique(c(deletecol, j))
