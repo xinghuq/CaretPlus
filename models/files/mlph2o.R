@@ -52,7 +52,7 @@ modelInfo<- list(label = "DL_h2o",
                                                         seed = 123,
                                                         variable_importances = T,
                                                         l2=param$L2reg,
-                                                        stopping_metric=ifelse(is.factor(env$envir1), "misclassification", "RMSE"),
+                                                        stopping_metric=ifelse(is.factor(y), "misclassification", "RMSE"),
                                                         rho=param$rho,...)
                            h2o::h2o.getModel(out@model_id)
                          },
